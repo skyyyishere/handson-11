@@ -1,4 +1,5 @@
 package latihan5_dip.good;
 
-public class CardValidator {
+public interface CardValidator {
+    boolean isValid(String cardNumber);
 }

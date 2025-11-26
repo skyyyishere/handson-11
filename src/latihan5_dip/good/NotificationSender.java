@@ -1,4 +1,5 @@
 package latihan5_dip.good;
 
-public class NotificationSender {
+public interface NotificationSender {
+    void notifyUser(String message);
 }

@@ -1,4 +1,5 @@
 package latihan5_dip.good;
 
-public class PaymentGateway {
+public interface PaymentGateway {
+    boolean pay(String cardNumber, int amount);
 }

@@ -1,4 +1,5 @@
 package latihan5_dip.good;
 
-public class TransactionLogger {
+public interface TransactionLogger {
+    void log(String message);
 }
